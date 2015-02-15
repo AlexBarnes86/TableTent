@@ -1,0 +1,107 @@
+html, body {
+	display: inline-flex;
+	height: 100%;
+	width: 100%;
+}
+
+.tabletent {
+	width: 6in;
+	height: 6in;
+	margin: auto;
+	border: 1px solid lightgray;
+}
+
+.tabletent-back {
+	width: 100%;
+	height: 50%;
+}
+
+.tabletent-front {
+	width: 100%;
+	height: 50%;
+	border-top: 1px solid lightgray;
+	padding: 0.2in;
+	box-sizing: border-box;
+}
+
+.portrait {
+	float: left;
+	width: 33%;
+	height: 100%;
+	padding-right: .2in;
+	box-sizing: border-box;
+	border-right: 1px solid lightgray;
+}
+
+.character-info {
+	float: left;
+	height: 100%;
+	border: none;
+	padding-left: .2in;
+	box-sizing: border-box;
+	width: 67%;
+}
+
+.character-portrait {
+	height: 66%;
+}
+
+.character-portrait img {
+	max-width: 100%;
+}
+
+.campaign-logo {
+	height: 33%;
+}
+
+.campaign-logo img {
+	margin-top: 25px; /*TODO: Figure out how to vertical align this image*/
+	max-width: 100%;
+}
+
+input[type=text],
+input[type=password] {
+    background: none;
+    border: none;
+    width: 90%;
+	height: 20px;
+    line-height: 20px;
+    font-size: 20px;
+    outline: none;
+}
+
+label {
+	border-top: solid 1px black;
+	padding-top: 5px;
+	box-sizing: border-box;
+	display: inline-block;
+	width: 90%;
+    color: #555;
+	font-family: "Helvetica";
+	font-style: italic;
+}
+
+.line {
+	height: 25%;
+}
+
+.col-1 {
+	float: left;
+	width: 25%;
+}
+
+.col-2 {
+	float: left;
+	width: 50%;
+}
+
+.col-3 {
+	float: left;
+	width: 75%;
+}
+
+.col-4 {
+	float: left;
+	width: 100%;
+}
+
